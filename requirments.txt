@@ -1,0 +1,8 @@
+pandas
+bs4
+lxml
+numpy
+requests
+mysql-connector-python
+django
+openpyxl
