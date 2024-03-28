@@ -171,6 +171,7 @@ def analyze(company_ticker, company, heading):
     pre_clean_list = [pre_clean_data[i:i+chunk_size]
                       for i in range(0, len(pre_clean_data), chunk_size)]
     # choosing the needed chunk
+    
     listdat = pre_clean_list[0]
     if (heading == "gross-profit"):
         df = pd.DataFrame(listdat, columns=['year', "dirty"+cleanhead])
